@@ -4,10 +4,10 @@ public class Assignment {
 	
 	
 
-	//I am adding comments
+	
 		
 		
-	static void printInformation() {
+	public void printInformation() {
 			System.out.println("Enter name of the coder " + "Nirob" +"\n" + "Liam" +"\n"+ "ilyas");
 
 			
