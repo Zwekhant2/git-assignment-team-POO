@@ -1,9 +1,14 @@
 
-public class Assignment {
+//create a constructor
+	
+public	MainCoderDetails (String coderName, int coderAge, String coderNationality){
+	this.name=coderName;
+	this.age=coderAge;
+	this.nationality=coderNationality;
+	
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	
+		System.out.println("Name : " + coderName );
+		System.out.println("Age : " + coderAge);
+		System.out.println("nationality : " + coderNationality);	
 }
