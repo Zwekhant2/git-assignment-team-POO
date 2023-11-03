@@ -43,7 +43,7 @@ public class MainCoderDetails {
 			MainCoderDetails objectNirob = new MainCoderDetails("Nirob", 22, "Bangladeshi");
 		} else if (userInput.equalsIgnoreCase("Liam")) {
 
-			MainCoderDetails objectLiam = new MainCoderDetails("Liam", 20, "Malysia");
+			MainCoderDetails objectLiam = new MainCoderDetails("Liam", 20, "Myanmar");
 		}
 
 		else if (userInput.equalsIgnoreCase("Le Khang")) {
