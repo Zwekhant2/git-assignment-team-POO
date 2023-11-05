@@ -13,7 +13,7 @@ public class MainCoderDetails {
 	
 	// Methods
 	static void printInformation() {
-		System.out.println("Enter name of the coder " + "Nirob" +"\n" + "Liam" +"\n"+ "ilyas" + "\n" + "Austian");
+		System.out.println("Enter name of the coder " + "Nirob" +"\n" + "Liam" +"\n"+ "ilyas" + "\n" + "Le khang");
 
 		
 		
