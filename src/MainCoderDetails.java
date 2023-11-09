@@ -13,21 +13,21 @@ public class MainCoderDetails {
 	
 	// Methods
 	static void printInformation() {
-		System.out.println("Enter name of the coder " + "Nirob" +"\n" + "Liam" +"\n"+ "ilyas" + "\n" + "Le khang");
-
-		
-		
-		
+		System.out.println("Enter name of the coder " + "\n" + "Nirob" +"\n" + "Liam" +"\n"+ "Ilyas" + "\n" + "Le khang");
 	}
 	
-	
+	//Le Khang is doing constructor
+	public	MainCoderDetails (String coderName, int coderAge, String coderNationality){
+		this.name=coderName;
+		this.age=coderAge;
+		this.nationality=coderNationality;
 		
 
 		
-		
-	
-	
-
+			System.out.println("Name : " + coderName );
+			System.out.println("Age : " + coderAge);
+			System.out.println("nationality : " + coderNationality);
+	}
 	
 	//Liam is doing objects
 	public static void main(String[] args) {
@@ -44,7 +44,7 @@ public class MainCoderDetails {
 	}
 	else if (userInput.equalsIgnoreCase("Liam")) {
 		
-		 MainCoderDetails objectLiam= new MainCoderDetails("Liam" , 20 , "Malysia");
+		 MainCoderDetails objectLiam= new MainCoderDetails("Liam" , 20 , "Myanmar");
 	}		
 
 	else if (userInput.equalsIgnoreCase("Le Khang")) {
